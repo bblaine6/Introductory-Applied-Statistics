@@ -1,6 +1,6 @@
 #ASRR Chapter 2
 
-ecls=read.table(file='C:/Users/bblaine/Desktop/ecls200.txt',header=TRUE)
+ecls=read.table(url("https://supp.apa.org/psycarticles/supplemental/met0000193/ecls200.txt"),header=TRUE)
 str(ecls)     #structure
 
 #2.2
